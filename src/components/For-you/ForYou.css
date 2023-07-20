@@ -1,0 +1,53 @@
+*{
+  box-sizing: border-box;
+}
+.search {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.suggestions {
+  background-color: #2f3136;
+  padding: 10px 10px 5px 10px;
+  border-radius: 12px;
+  transition: all 0.3s;
+}
+.suggestions:hover {
+  transform: translateY(-1%);
+  cursor: pointer;
+}
+.to-find {
+  filter: invert(99%) sepia(1%) saturate(24%) hue-rotate(86deg) brightness(107%)
+    contrast(100%);
+}
+.to-find:hover {
+  cursor: pointer;
+}
+.likes {
+  height: 30px;
+}
+.post-stats {
+  display: flex;
+  gap: 10px;
+}
+.for-you {
+  /* background-color: blue; */
+  background-color: #36393f;
+  padding: 10px;
+  padding-top: 0;
+  min-height: 100vh;
+}
+.for-you-grid{
+  gap: 1rem;
+}
+.for-you-img {
+  /* width: 100%; */
+  display: block;
+  border-radius: 12px;
+}
+
+@media (max-width: 500px){
+*{
+  font-size: 0.9rem;
+}
+}

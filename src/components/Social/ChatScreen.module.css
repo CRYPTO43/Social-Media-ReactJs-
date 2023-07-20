@@ -1,0 +1,39 @@
+.main-container{
+  overflow-y: scroll;
+  min-height: 74vh;
+  max-height: 81vh;
+}
+.top-panel{
+  background-color:#2f3136;
+  margin: 0 0.8rem;
+  border-radius: 12px;
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+.top-panel:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.img{
+  border-radius: 50%;
+  padding: 0.2rem;
+}
+.msg{
+  display: block;
+  width: 40%;
+  border-radius: 12px;
+  background-color: #2f3136;
+  padding: 0.8rem;
+  margin: 0.5rem;
+}
+.send{
+ margin-left: 58%;
+}
+
+@media (max-width:560px){
+  .msg{
+    padding:0.4rem ;
+  }
+}

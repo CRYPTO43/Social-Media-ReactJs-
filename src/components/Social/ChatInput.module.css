@@ -1,0 +1,33 @@
+.input{
+  width: 85%;
+  height: 2rem;
+  border-radius: 12px;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1.2rem;
+}
+.form{
+  padding:0 0.5rem;
+  display: flex;
+  gap: 1rem;
+}
+.btn{
+  font-size: 1rem;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 12px;
+  background-color: #202225;
+  color: #fff;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+}
+
+@media (max-width:560px){
+  .btn{
+    padding: 0.3rem 0.6rem;
+    font-size: 0.7rem;
+  }
+}
